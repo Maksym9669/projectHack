@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import logo1 from "./favicon.png";
-import favicon from "./favicon.png";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./layout/Header";
@@ -41,7 +40,7 @@ class App extends Component {
               />
             </div>
             <div className="col-6">
-              <p className="text-light">
+              <p className="text-light" id="txt1">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
@@ -49,6 +48,17 @@ class App extends Component {
                 survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged.
               </p>
+            </div>
+          </div>
+          <div className="row top-buffer bg-primary">
+            <div className="col-4">
+              <i class="fas fa-birthday-cake" />
+            </div>
+            <div className="col-4">
+              <i class="far fa-lightbulb" />
+            </div>
+            <div className="col-4">
+              <i class="fas fa-clock" />
             </div>
           </div>
         </div>
