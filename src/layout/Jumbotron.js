@@ -3,9 +3,10 @@ import React from "react";
 export default function Jumbotron() {
   return (
     <div>
-      <h1 class="display-4">Induce a new level conversation!</h1>
+      <h1 class="display-4">Public Event Organizer</h1>
       <p class="lead">
-        We strive to bring completely new experience for people attending
+      <h3 class="display-4"><h1 class="display-4"></h1></h3>
+    We strive to bring completely new experience for people attending
         various events by analyzing their personalities and selecting the best
         choices for each vistor.
       </p>
