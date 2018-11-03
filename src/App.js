@@ -52,13 +52,13 @@ class App extends Component {
           </div>
           <div className="row top-buffer bg-primary">
             <div className="col-4">
-              <i class="fas fa-birthday-cake" />
+              <i className="fas fa-birthday-cake" />
             </div>
             <div className="col-4">
-              <i class="far fa-lightbulb" />
+              <i className="far fa-lightbulb" />
             </div>
             <div className="col-4">
-              <i class="fas fa-clock" />
+              <i className="fas fa-clock" />
             </div>
           </div>
         </div>
