@@ -42,15 +42,7 @@ export default function Header() {
                 to="/about"
                 className="nav-link float-right text-light font-weight-bold"
               >
-                Active
-              </Link>
-            </li>
-            <li className="nav-item float-right">
-              <Link
-                to="/about"
-                className="nav-link float-right text-light font-weight-bold"
-              >
-                Link
+                Contacts
               </Link>
             </li>
             <li className="nav-item float-right">
@@ -58,7 +50,7 @@ export default function Header() {
                 className="nav-link float-right text-light font-weight-bold"
                 to="/about"
               >
-                Link
+                About us
               </Link>
             </li>
             <li className="nav-item float-right">
@@ -66,7 +58,7 @@ export default function Header() {
                 className="nav-link float-right text-light font-weight-bold"
                 to="/about"
               >
-                Disabled
+                Home
               </Link>
             </li>
           </div>
