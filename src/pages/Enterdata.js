@@ -2,6 +2,17 @@ import React, { Component } from "react";
 import Contact from "../components/Contact";
 
 export default class Enterdata extends Component {
+  butClick = () => {
+    let n = document.getElementById("formGroupExampleInput").value;
+    console.log(n);
+    this.renderBlocks(n);
+  };
+
+  renderBlocks = n => {
+    for (let i = 0; i < n; i++) {
+      console.log("Hey");
+    }
+  };
   render() {
     return (
       <div className="container">
@@ -12,24 +23,29 @@ export default class Enterdata extends Component {
             style={{ margin: "50px", padding: "30px" }}
           >
             <h1>Enter data about customers</h1>
-            <form class="frm1">
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control"
-                  id="formGroupExampleInput"
-                  placeholder="Name"
-                />
+            <div className="form-group text-center">
+              <div className="row">
+                <div className="col-6">
+                  <input
+                    type="text"
+                    id="numVisit"
+                    className="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="Number of visitors"
+                  />
+                </div>
+                <div className="col-6">
+                  <button
+                    type="button"
+                    class="btn btn-dark"
+                    id="button12"
+                    onClick={this.butClick}
+                  >
+                    Ok
+                  </button>
+                </div>
               </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  className="form-control"
-                  id="formGroupExampleInput2"
-                  placeholder="Email"
-                />
-              </div>
-            </form>
+            </div>
             <Contact />
           </div>
           <div className="col-3" />

@@ -22,3 +22,15 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+
+.frm1 {
+  margin: "10px";
+  color: text-light;
+}
+
+.hr1 {
+  height: 3px;
+  color: white;
+  background-color: white;
+  border: none;
+}

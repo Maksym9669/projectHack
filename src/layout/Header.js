@@ -9,10 +9,10 @@ export default function Header() {
           <div className>
             <li class="nav-item float-right">
               <Link
-                to="/about"
+                to="/server"
                 className="nav-link float-right text-light font-weight-bold"
               >
-                About us
+                Server side
               </Link>
             </li>
             <li className="nav-item float-right">
